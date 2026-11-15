@@ -14,7 +14,9 @@ A responsive, installable student wellbeing support app prototype for school, co
 
 - Responsive phone/desktop interface; installable PWA.
 - Read-aloud controls on assistant replies, selectable device voices, and adjustable speech speed.
-- Microphone voice-to-text input with editable transcription before sending (browser support varies).
+- Microphone voice-to-text input with editable transcription before sending; selectable English (US/UK), Bangla (Bangladesh), or device-default recognition language where supported.
+- Voice tone and speaking-speed controls; actual voice choices depend on installed device voices.
+- Speech playback uses browser/device voices. Speech recognition is browser-managed and may be processed by the browser's speech service depending on device and provider.
 - Hybrid assistant: lightweight lexical NLP + curated knowledge retrieval + optional OpenAI-compatible chat API.
 - Conversational style: calm, confident, perceptive and gently witty; designed to listen before offering suggestions.
 - Safety-first response path for crisis language and an always-visible urgent-help action.
