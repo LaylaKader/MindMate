@@ -9,7 +9,7 @@ TOPICS = {
     "relationships": {"friend","relationship","partner","family","parent","roommate","breakup","ignored","argument"},
     "sleep": {"sleep","insomnia","awake","tired","nightmare","rest"},
 }
-CRISIS = re.compile(r"\\b(kill myself|suicid(?:e|al)|end my life|want to die|hurt myself|self[- ]harm|can't keep myself safe|cannot keep myself safe|overdose|end it all)\\b", re.I)
+CRISIS = re.compile(r"\b(kill myself|suicid(?:e|al)|end my life|want to die|hurt myself|self[- ]harm|can't keep myself safe|cannot keep myself safe|overdose|end it all)\b", re.I)
 NEGATIVE = {"sad","scared","anxious","angry","lonely","hopeless","exhausted","overwhelmed","afraid","panic","hurt"}
 POSITIVE = {"happy","calm","good","hopeful","excited","grateful","proud","better"}
 
