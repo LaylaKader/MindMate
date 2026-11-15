@@ -13,6 +13,8 @@ A responsive, installable student wellbeing support app prototype for school, co
 ## Features
 
 - Responsive phone/desktop interface; installable PWA.
+- Read-aloud controls on assistant replies, selectable device voices, and adjustable speech speed.
+- Microphone voice-to-text input with editable transcription before sending (browser support varies).
 - Hybrid assistant: lightweight lexical NLP + curated knowledge retrieval + optional OpenAI-compatible chat API.
 - Conversational style: calm, confident, perceptive and gently witty; designed to listen before offering suggestions.
 - Safety-first response path for crisis language and an always-visible urgent-help action.
