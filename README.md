@@ -13,16 +13,16 @@ A responsive, installable student wellbeing support app prototype for school, co
 ## Features
 
 - Responsive phone/desktop interface; installable PWA.
-- Read-aloud controls on assistant replies, selectable device voices, and adjustable speech speed.
+- Read-aloud controls with curated voice-style profiles that select the closest available English voice on the device; actual voice quality and gender matching vary by browser/device.
 - Microphone voice-to-text input with editable transcription before sending; selectable English (US/UK), Bangla (Bangladesh), or device-default recognition language where supported.
-- Voice tone and speaking-speed controls; actual voice choices depend on installed device voices.
+- Voice-to-text and speech playback use browser/device speech services; available voices vary by device.
 - Speech playback uses browser/device voices. Speech recognition is browser-managed and may be processed by the browser's speech service depending on device and provider.
 - Hybrid assistant: lightweight lexical NLP + curated knowledge retrieval + optional OpenAI-compatible chat API.
 - Conversational style: calm, confident, perceptive and gently witty; designed to listen before offering suggestions.
 - Safety-first response path for crisis language and an always-visible urgent-help action.
-- Mood check-ins and journal entries stored in browser localStorage only.
+- Notebook-style journal with rich text, colors, emoji, word-board chips, photos, reusable stickers, and an in-browser background-removal sticker maker. Journal entries are stored locally in browser storage.
 - Curated knowledge cards with source links and review metadata.
-- No account, no analytics, no server-side chat or mood storage.
+- No account, no analytics, no server-side chat or mood storage. Chat messages are kept in tab session storage and cleared when the app session ends or the user clears the conversation.
 
 ## Run locally
 
@@ -42,7 +42,7 @@ Frontend: serve the repository root with any static server (for example `python 
 
 Set `LLM_API_KEY`, `LLM_BASE_URL` (default OpenAI-compatible `https://api.openai.com/v1`) and `LLM_MODEL` on the backend host. The key must only be stored as a server environment secret, never in frontend code. Without these variables, the assistant uses its local retrieval-and-template fallback.
 
-The LLM receives the current message, up to eight recent messages from the active chat, and a small set of retrieved public knowledge snippets. Chat history is held in browser memory for the active session and is not stored in a MindMate account or database. When an external LLM is enabled, those messages are sent to the configured provider; review that provider's data policy before enabling it. Do not enter identifying or highly sensitive information. Review the provider's data policy before enabling an external model.
+The LLM receives the current message, up to eight recent messages from the active chat, and a small set of retrieved public knowledge snippets. Chat history is held in browser session storage for the active tab session and is not stored in a MindMate account or server database. When an external LLM is enabled, those messages are sent to the configured provider; review that provider's data policy before enabling it. Do not enter identifying or highly sensitive information. Review the provider's data policy before enabling an external model.
 
 ## Safety & limitations
 
