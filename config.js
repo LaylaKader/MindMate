@@ -1,1 +1,1 @@
-window.MINDMATE_API_URL = "https://mindmate-api-l4bk.onrender.com";
+window.MINDMATE_API_URL = "https://mindmate-api-live.onrender.com";
