@@ -1,0 +1,65 @@
+[
+  {
+    "id": "grounding",
+    "title": "Grounding: return attention to the present",
+    "topic": "grounding",
+    "summary": "When you feel overwhelmed, gently notice your surroundings and senses. A 5–4–3–2–1 exercise can help direct attention to what is here now. You can stop or adapt it if it feels uncomfortable.",
+    "source": "WHO — Doing What Matters in Times of Stress",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "reviewed": "2026-11-15"
+  },
+  {
+    "id": "unhook",
+    "title": "Notice a thought without obeying it",
+    "topic": "thoughts",
+    "summary": "Try naming a thought as a thought rather than a fact: “I'm noticing the thought that I will fail.” You do not need to force it away. Consider what is known, what is uncertain, and one kinder alternative.",
+    "source": "WHO — Doing What Matters in Times of Stress",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "reviewed": "2026-11-15"
+  },
+  {
+    "id": "cbt",
+    "title": "Thoughts, feelings and actions are connected",
+    "topic": "cbt",
+    "summary": "A CBT-informed reflection can help you notice how a situation, interpretation, feeling and action influence one another. Ask: what is the evidence, is there another explanation, and what small helpful action is possible?",
+    "source": "NHS — Self-help CBT techniques",
+    "source_url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/",
+    "reviewed": "2026-11-15"
+  },
+  {
+    "id": "worry",
+    "title": "Give worries a small container",
+    "topic": "worry",
+    "summary": "If worries keep interrupting the day, some people find it useful to write them down and set aside a brief, planned time to review them. Separate what you can act on from what is outside your control.",
+    "source": "NHS — Tackling your worries",
+    "source_url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-worries/",
+    "reviewed": "2026-11-15"
+  },
+  {
+    "id": "stress",
+    "title": "Small actions during stressful times",
+    "topic": "stress",
+    "summary": "Stress can make everything feel urgent. Pause, notice what matters to you, and choose one manageable next action. Connecting with someone supportive and treating yourself with kindness can also help.",
+    "source": "WHO — Doing What Matters in Times of Stress",
+    "source_url": "https://www.who.int/publications/i/item/9789240003927",
+    "reviewed": "2026-11-15"
+  },
+  {
+    "id": "sleep",
+    "title": "Build a gentle wind-down routine",
+    "topic": "sleep",
+    "summary": "A consistent, calming routine and reducing stimulating activities before bed may support sleep. If sleep problems persist or affect daily life, consider speaking with a qualified health professional.",
+    "source": "NHS — Every Mind Matters",
+    "source_url": "https://www.nhs.uk/every-mind-matters/",
+    "reviewed": "2026-11-15"
+  },
+  {
+    "id": "support",
+    "title": "You do not have to manage alone",
+    "topic": "support",
+    "summary": "If difficult feelings are persistent, intensifying, or interfering with everyday life, consider talking with a trusted person, school counsellor, or qualified mental health professional. Asking for help is a practical step, not a failure.",
+    "source": "WHO — Psychological self-help interventions",
+    "source_url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/psychological-interventions/psychological-self-help-interventions",
+    "reviewed": "2026-11-15"
+  }
+]
