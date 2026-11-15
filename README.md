@@ -3,7 +3,7 @@ A responsive, installable student wellbeing support prototype for school, colleg
 
 **MindMate is not therapy, diagnosis, or crisis care.** It offers supportive conversation, low-risk self-help ideas, mood reflection, journaling stored locally in the browser, and links to trusted resources.
 
-## Features
+## Live demo\n- App: https://mindmate-nine-coral.vercel.app\n- API health: https://mindmate-api-live.onrender.com/health\n- API docs: https://mindmate-api-live.onrender.com/docs\n\n## Features
 - Responsive phone/desktop interface; installable PWA.
 - Hybrid assistant: lightweight lexical NLP + curated knowledge retrieval + optional OpenAI-compatible chat API.
 - Safety-first response path for crisis language and an always-visible urgent-help action.
